@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for QBO Client Data Extractor.">
+  <title>Privacy Policy — QBO Client Data Extractor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+<header>
+  <div class="eyebrow">QBO Client Data Extractor</div>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective September 29, 2026 · Version 1.0</p>
+  <nav aria-label="Legal navigation"><a href="index.html">Legal home</a><a href="eula.html">End-user license agreement</a></nav>
+</header>
+<main id="content">
+  <p>This Privacy Policy explains how <span>Remi Loranger</span> (“Publisher,” “we,” “us,” or “our”) handles personal information in connection with QBO Client Data Extractor (the “App”).</p>
+
+  <h2>1. Scope</h2>
+  <p>This Policy applies to the locally installed Windows App used solely for Publisher’s internal professional operations and related support or legal communications with Publisher. It does not replace the privacy terms of Intuit, QuickBooks Online, Microsoft Windows, your organization, or another service you choose to use.</p>
+
+  <h2>2. Information processed by the App</h2>
+  <p>Depending on the functions you use and the data available in your authorized QuickBooks company or workbook, the App may process:</p>
+  <ul>
+    <li>workspace and company identifiers, client codes, company names, fiscal-period information, and connection metadata;</li>
+    <li>charts of accounts, customers, vendors, items, General Ledger details, Trial Balances, transaction source records, and report responses;</li>
+    <li>bill and attachment metadata and documents you explicitly download;</li>
+    <li>Excel workbook values and mapping, review, classification, provenance, and publication information;</li>
+    <li>analysis settings, populations, exceptions, samples, dispositions, workpapers, rollforwards, lead schedules, proposed adjustments, rationales, and posting evidence;</li>
+    <li>technical records such as application/schema versions, run status, timestamps, counts, hashes, safe error classifications, model attestations, and security/audit events; and</li>
+    <li>Intuit application credentials and OAuth tokens required for an authorized QuickBooks connection.</li>
+  </ul>
+
+  <h2>3. How information is obtained</h2>
+  <p>The App obtains information when you enter it, select a local workbook, authorize access to a QuickBooks Online company, operate a workflow, download an attachment, or generate local outputs. The App does not authorize itself to a QuickBooks company without the user completing Intuit’s authorization flow.</p>
+
+  <h2>4. Purposes</h2>
+  <p>The App processes information to:</p>
+  <ul>
+    <li>authenticate the local desktop session and protect workspace operations;</li>
+    <li>connect to QuickBooks Online at your direction;</li>
+    <li>extract, import, validate, organize, display, reconcile, classify, and export accounting data;</li>
+    <li>support review, audit analytics, sampling, provenance, workpapers, rollforwards, lead schedules, and adjustment tracking;</li>
+    <li>download a bill document only when requested;</li>
+    <li>operate the optional local accounting chatbot when its local-only safeguards pass;</li>
+    <li>preserve integrity, prevent unauthorized access, recover interrupted operations, and retain sanitized audit evidence; and</li>
+    <li>respond to support, privacy, legal, or security inquiries you send to Publisher.</li>
+  </ul>
+
+  <h2>5. Local storage and data flow</h2>
+  <p>The current App is locally deployed and does not use a Publisher-operated application backend to receive your QuickBooks accounting data. Application data is stored under the signed-in user’s local Windows profile. Intuit credentials and OAuth token bundles are stored using Windows Credential Manager. The App communicates directly with Intuit endpoints when you request QuickBooks functions. Downloaded attachments, exports, and workpapers remain on the local device unless you move or share them.</p>
+  <p>The optional accounting chatbot is designed to communicate only with an explicitly installed, attested model on literal loopback. It has no remote fallback. Chat questions, accounting facts supplied to the model, and answers are held in memory for a bounded session and are not retained as chat content; sanitized model-attestation and lifecycle metadata may persist.</p>
+
+  <h2>6. Disclosure</h2>
+  <p>The App discloses information to Intuit as needed to authenticate and fulfill user-requested QuickBooks API operations. Information may also be accessible to:</p>
+  <ul>
+    <li>people who can access your Windows account, device, local application-data directory, exports, workpapers, attachments, backups, or Credential Manager;</li>
+    <li>your organization and its authorized service providers when you intentionally copy, back up, review, or distribute local outputs; and</li>
+    <li>government, regulatory, legal, or security authorities where required by law or necessary to protect rights and security.</li>
+  </ul>
+  <p>Publisher does not sell QuickBooks accounting data or use it for targeted advertising. <span>The App has no Publisher-operated analytics, telemetry, crash-reporting, cloud-storage, or support backend. Email sent to the public contact address is processed through Microsoft Outlook under Microsoft’s applicable terms and privacy practices.</span></p>
+
+  <h2>7. Legal bases</h2>
+  <p>Where applicable law requires a legal basis, processing may be based on performance of an agreement, your or your organization’s instructions and consent, legitimate interests in providing and securing the App, compliance with legal obligations, and establishment or defence of legal claims. Your organization may be the controller of client or employee information processed through the App; Publisher may have a different role depending on the deployment and agreement.</p>
+
+  <h2>8. Retention</h2>
+  <p>Local accounting data remains on the device until an authorized user removes it under an approved retention and secure-disposal process. The App does not currently provide a complete supported workspace-purge workflow, backup scheduler, or restore wizard. OAuth credentials remain in Windows Credential Manager until removed or revoked. Intuit may retain information under its own policies. Publisher retains support or legal communications only as long as reasonably necessary for the purpose, legal obligations, security, and dispute resolution. <span>Publisher ordinarily retains support and privacy correspondence for six months, unless a longer period is required for security, legal obligations, an active dispute, or a legal hold.</span></p>
+
+  <h2>9. Security</h2>
+  <p>The App uses local loopback binding, an authenticated desktop session, CSRF and Host/Origin controls, Windows Credential Manager, source/workspace authorization, integrity checks, immutable evidence bindings, safe attachment transport controls, and local-only chatbot guards. Local files rely on Windows account permissions and device encryption rather than application-level database encryption. No system is completely secure. You are responsible for Windows access control, BitLocker or equivalent device encryption, backups, endpoint protection, and secure handling of exported files.</p>
+
+  <h2>10. Your choices and rights</h2>
+  <p>You can choose whether to connect a QuickBooks company, upload a workbook, download an attachment, run an analysis, or use the local chatbot. You may revoke the App’s QuickBooks authorization through your Intuit account. Depending on applicable law, you may have rights to request access, correction, deletion, restriction, portability, or objection regarding personal information held by Publisher. Because the current App’s accounting data is stored locally and is not received by Publisher, requests about that local data ordinarily must be handled by the organization controlling the device and engagement records.</p>
+  <p>Do not manually delete individual SQLite rows or files where doing so could break audit or referential integrity. Follow the organization’s approved retention, legal-hold, backup, revocation, and secure-disposal procedures.</p>
+
+  <h2>11. Children</h2>
+  <p>The App is intended for professional business use and is not directed to children. Publisher does not knowingly design the App to collect children’s information.</p>
+
+  <h2>12. International processing</h2>
+  <p>QuickBooks data is processed on the Windows device and through Intuit services selected and authorized by the user. Intuit and other services may process information in other jurisdictions under their own terms and privacy policies. <span>Support and privacy email is processed through Microsoft Outlook and may be processed in jurisdictions where Microsoft and its service providers operate.</span></p>
+
+  <h2>13. Changes</h2>
+  <p>Publisher may update this Policy when the App, data flows, legal requirements, or operational practices change. The current version and effective date will be posted on this page. Material changes will be communicated as required by law.</p>
+
+  <h2>14. Contact and complaints</h2>
+  <p>Questions and privacy requests may be sent to:</p>
+  <p><span>Remi Loranger</span><br>
+  <span>883227 Highway 65 East, Temiskaming Shores, Ontario P0J 1P0, Canada</span><br>
+  Privacy email: <span>remiloranger@outlook.com</span></p>
+  <p>You may also have the right to complain to the privacy regulator in your jurisdiction. <span>Where applicable, concerns may be directed to the Office of the Privacy Commissioner of Canada.</span></p>
+
+  <h2>15. Intuit</h2>
+  <p>Your use of QuickBooks Online is also governed by Intuit’s agreements and privacy statement. Publisher does not control Intuit’s independent processing practices.</p>
+</main>
+<footer>© 2026 <span>Remi Loranger</span>. All rights reserved.</footer>
+</body>
+</html>
